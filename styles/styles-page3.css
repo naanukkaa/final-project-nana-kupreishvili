@@ -1,7 +1,7 @@
 .container {
   max-width: 1800px;
   width: 90%;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 /* header */
@@ -67,5 +67,67 @@ nav {
   margin-left: 32px;
 }
 
+/* footer */
 
+.footer{
+  height: 342px;
+  background-color: #358585;
+  width: 100%;
+  padding: 50px 230px;
+  display: flex;
+  flex-direction: row;
+}
 
+.column{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  width: 200px;
+  margin-right: 200px;
+}
+
+.column2{
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "BPG Glaho WEB Caps", sans-serif;  
+  margin-bottom: 15px;
+  width: 250px;
+  margin-right: 150px;
+}
+
+.logos{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+  height: 18px;
+  width: 18px;
+}
+
+.column-a{
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "BPG Glaho WEB Caps", sans-serif;  
+  margin-bottom: 15px;
+}
+
+.info-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.column-title{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
