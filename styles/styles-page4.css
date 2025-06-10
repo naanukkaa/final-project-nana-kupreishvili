@@ -1,0 +1,71 @@
+.container {
+  max-width: 1800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  
+}
+
+a {
+  color: #358585;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.active {
+  color: #084c4c;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #084c4c;
+}
+
+.navigation{
+  padding: 10px 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  height: 30px;
+  width: 42px;
+  vertical-align: middle;
+  margin-right: 32px;
+}
+
+.gerbi {
+  height: 42px;
+  width: 34px;
+  vertical-align: middle;
+  margin-left: 32px;
+}
+
+
+
