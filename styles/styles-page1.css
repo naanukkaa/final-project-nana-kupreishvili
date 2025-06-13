@@ -7,7 +7,6 @@
 /* header */
 header {
   padding: 20px 0;
-  position: fixed;
   width: 100%;
   z-index: 100;
   font-family: "BPG Glaho WEB Caps", sans-serif;
@@ -69,8 +68,12 @@ nav {
 
 /* info */
 
+.section{
+  margin-top: 200px;
+}
+
 .abasha-banner{
-  background-image: url("");
+  background-image: url("../images/main/banner.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
