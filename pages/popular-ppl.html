@@ -4,6 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>აბაშის ისტორიული სახე</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" type="text/css" href="../styles/reset.css">
     <link rel="stylesheet" type="text/css" href="../styles/styles-page4.css">
     <link rel="stylesheet" type="text/css" href="../media/media-page4.css">
@@ -15,54 +20,91 @@
 
 </head>
 <body>
-      <header>
-    <!-- Top bar -->
-     <div class="container">
-      <div class="navigation">
-        <h1 class="top-title">იმოგზაურეთ აბაშის წარსულში</h1>
-        
-      </div>
+    <header>
+     <nav class="navbar navbar-expand-lg bg-white shadow-sm px-3">
+      <div class="container-fluid">
+        <!-- Flag icon (left) -->
+        <a class="navbar-brand" href="https://abasha.gov.ge/">
+          <img src="../images/main/abasha-flag.png" alt="flag" class="flag" />
+        </a>
 
-      <!-- Navigation menu -->
-      <div class="navigation">
-        <nav>
-          <ul>
-              <li>
-                <a href="https://abasha.gov.ge/">
-                <img src="../images/main/abasha-flag.png" alt="flag" class="flag">
-                </a>
-              </li>
-              <li>
-                <a href="../index.html">მთავარი</a>
-              </li>
-              <li>
-                <a href="general-history.html">ზოგადი ისტორია</a>
-              </li>
-              <li>
-                <a href="agriculture.html">სოფლის მეურნეობა</a>
-              </li>
-              <li>
-                <a href="popular-ppl.html" class="active">გამოჩენილი ადამიანები</a>
-              </li>
-              <li>
-                <a href="historic-places.html">ისტორიული ადგილები</a>
-              </li>
-              <li>
-                <a href="now-abasha.html">თანამედროვე აბაშა</a>
-              </li>
-              <li>
-                <a href="photo-gallery.html">ფოტოგალერეა</a>
-              </li>
-              <li>
-                <a href="https://abasha.gov.ge/">
-                <img src="../images/main/abasha-one.png" alt="gerbi" class="gerbi">
-                </a>
-              </li>
+        <!-- Hamburger button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible menu -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">მთავარი</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="general-history.html">ზოგადი ისტორია</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="agriculture.html">სოფლის მეურნეობა</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="popular-ppl.html">გამოჩენილი ადამიანები</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historic-places.html">ისტორიული ადგილები</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="now-abasha.html">თანამედროვე აბაშა</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photo-gallery.html">ფოტოგალერეა</a>
+            </li>
+
+            <!-- Dropdown menu -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                დამატებით
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="services.html">სერვისები</a></li>
+                <li><a class="dropdown-item" href="about-us.html">ჩვენს შესახებ</a></li>
+                <li><a class="dropdown-item" href="contact.html">კონტაქტი</a></li>
+              </ul>
+            </li>
           </ul>
-        </nav>
+
+          <!-- Right corner gerbi -->
+          <a href="https://abasha.gov.ge/" class="d-none d-lg-block">
+            <img src="../images/main/abasha-one.png" alt="gerbi" class="gerbi" />
+          </a>
+        </div>
       </div>
+    </nav>
+
+    <!-- Top title -->
+    <div class="container text-center my-3">
+      <h1 class="top-title">იმოგზაურეთ აბაშის წარსულში</h1>
     </div>
   </header>
+
+  <!-- მთავარი -->
+   <section>
+    <div class="main container">
+      <h1>გამოჩენილი ადამიანები</h1>
+    </div>
+   </section>
 
   <footer>
     <div class="footer container">
@@ -74,6 +116,9 @@
           </a>
           <a href="https://abasha.gov.ge/">
             <img src="../images/icon/google.svg" alt="google logo">
+          </a>
+          <a href="https://tbcbank.ge/ka/tbc-education">
+            <img src="../images/icon/tbc-logo.svg" alt="tbc logo" class="tbc-logo">
           </a>
         </div>
       </div>
@@ -87,7 +132,7 @@
         <a href="photo-gallery.html" class="column-a">ფოტოგალერეა</a>
       </div>
       <div class="column2">
-        <h1 class="column-title">კონტაქტი</h1>
+        <a href="contact.html" class="column-title">კონტაქტი</a>
         <div class="info-logo">
             <img width="38" height="38" src="https://img.icons8.com/sf-regular/48/FFFFFF/new-post.png" alt="mail"/>
             <p>abashismeria@gmail.com</p>
@@ -103,5 +148,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

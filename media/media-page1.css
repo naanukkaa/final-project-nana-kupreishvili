@@ -1,0 +1,290 @@
+@media (max-width: 1024px) {
+
+/* --- მენიუ --- */
+.navbar-nav .nav-link {
+  font-size: 15px;
+}
+
+.dropdown-item {
+  font-size: 15px;
+}
+
+/* --- სათაური --- */
+.top-title {
+  font-size: 35px;
+}
+
+/* info */
+
+
+.abasha-banner{
+  height: 300px;
+}
+
+.abasha-banner h1{
+  font-size: 45px;
+}
+
+.section p{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.section span{
+  font-size: 20px;
+}
+
+/* სოფლის მეურნეობა */
+
+.rows-top h1 {
+  font-size: 20px;
+}
+
+.rows-top a {
+  font-size: 17px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.picsrow img {
+    width: 140px;
+    height: 140px;
+}
+
+
+/* footer */
+
+.footer{
+  height: 392px;
+  padding: 25px 130px;
+}
+
+.column{
+  margin-right: 130px;
+}
+
+.column2{
+  margin-right: 130px;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+/* --- მენიუ --- */
+.navbar-nav .nav-link {
+  font-size: 25px;
+}
+
+.dropdown-item {
+  font-size: 25px;
+}
+
+/* --- სათაური --- */
+.top-title {
+  font-size: 35px;
+}
+
+/* info */
+
+.abasha-banner{
+  height: 300px;
+}
+
+.abasha-banner h1{
+  font-size: 35px;
+}
+
+.section p{
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.section span{
+  font-size: 17px;
+}
+
+/* სოფლის მეურნეობა */
+
+.rows-top h1 {
+  font-size: 20px;
+}
+
+.rows-top a {
+  font-size: 17px;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+}
+
+.picsrow img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* footer */
+
+.footer{
+  height: 392px;
+  padding: 25px 50px;
+}
+
+.column{
+  margin-right: 100px;
+}
+
+.column2{
+  margin-right: 100px;
+}
+
+}
+
+
+@media (max-width: 426px) {
+
+/* --- მენიუ --- */
+.navbar-nav .nav-link {
+  font-size: 25px;
+}
+
+.dropdown-item {
+  font-size: 25px;
+}
+
+/* --- სათაური --- */
+.top-title {
+  font-size: 26px;
+}
+
+/* info */
+
+.abasha-banner{
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abasha-banner h1{
+  font-size: 27px;
+}
+
+.section p{
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.section span{
+  font-size: 17px;
+}
+
+/* სოფლის მეურნეობა */
+
+.rows-top h1 {
+  font-size: 16px;
+}
+
+.rows-top a {
+  font-size: 13px;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+}
+
+.picsrow img {
+    width: 100px;
+    height: 100px;
+}
+
+.agriculture-four{
+  display: none;
+}
+
+.agriculture-five{
+  display: none;
+}
+
+.agriculture-six{
+  display: none;
+}
+
+.aleqsandre{
+  display: none;
+}
+
+.dutu{
+  display: none;
+}
+
+.kapaneli{
+  display: none;
+}
+
+/* footer */
+
+.footer{
+  height: 592px;
+  width: 100%;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column{
+    font-size: 15px;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.column p{
+  display: flex;
+  align-items: center;
+}
+
+.column2{
+    font-size: 12px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;;
+  margin-bottom: 20px;
+}
+
+.logos{
+  display: flex;
+  align-items: baseline;
+  margin-top: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.tbc-logo{
+  height: 42px;
+  width: 40px;
+}
+
+.column-a{
+  font-size: 14px;
+}
+
+.info-logo{
+    margin-bottom: 10px;
+}
+
+.column-title{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+}
