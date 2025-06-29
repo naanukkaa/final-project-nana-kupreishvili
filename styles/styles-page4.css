@@ -103,6 +103,80 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.main p {
+  font-size: 24px;
+  color: #084c4c;
+  font-weight: 500;
+  line-height: 1.6;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  margin-bottom: 70px;
+}
+
+.main span{
+  font-weight: 700;
+}
+
+.main h2 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #084c4c;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Base card style */
+.person-card {
+  overflow: hidden;
+  border-radius: 4%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+
+.person-card:hover {
+  transform: translateY(-4px);
+}
+
+.person-card img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4% 4% 0 0;
+}
+
+.toggle-button {
+  z-index: 2;
+  font-size: 12px;
+  padding: 4px 8px;
+  background-color: rgb(223, 220, 220);
+  border: none;
+  cursor: pointer;
+}
+
+.bio {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, padding 0.3s ease-in-out;
+  padding: 0;
+}
+
+.toggle-info:checked ~ .bio {
+  max-height: 1000px;
+  padding-top: 16px;
+}
+
+/* Text styling */
+.bio p {
+  font-size: 18px;
+  color: #084c4c;
+  font-weight: 550;
+  line-height: 1.6;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+
+
 /* footer */
 
 .footer{

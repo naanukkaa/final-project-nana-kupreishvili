@@ -87,6 +87,70 @@ a:hover {
   margin-left: 32px;
 }
 
+/* მთავარი */
+
+.abasha-section {
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #084c4c;
+  font-weight: bold;
+}
+
+.abasha-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.info-img {
+  max-width: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+.info-text h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #0c5c5c;
+  line-height: 1.6;
+}
+
+.info-text ul {
+  padding-left: 18px;
+  list-style-type: disc;
+  line-height: 1.6;
+}
+
+.info-text ul li {
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.info-text p {
+  font-size: 17px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
 /* footer */
 
 .footer{

@@ -72,6 +72,105 @@ a:hover {
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 
+/* main */
+
+.main p{
+  font-size: 20px;
+  color: #084c4c;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+
+.main h1{
+  font-size: 46px;
+  font-weight: 700;
+  color: #084c4c;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Historic Place Card Style */
+.place-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+
+.place-card:hover {
+  transform: translateY(-4px);
+}
+
+/* სურათი */
+.place-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* "იხილე მეტი" ღილაკი */
+.toggle-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(77, 77, 77, 0.9);
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 6px 12px;
+  cursor: pointer;
+  z-index: 2;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-button:hover {
+  background-color: rgba(200, 200, 200, 0.95);
+}
+
+/* დამალული ტექსტი */
+.toggle-info {
+  display: none;
+}
+
+.bio {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, padding 0.3s ease-in-out;
+  padding: 0 16px;
+}
+
+.toggle-info:checked ~ .bio {
+  max-height: 2000px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* ტექსტის სტილი */
+.bio p {
+  font-size: 18px;
+  color: #084c4c;
+  font-weight: 550;
+  line-height: 1.6;
+}
+
+.card-title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
 /* --- სურათის ელემენტები --- */
 .flag {
   height: 30px;

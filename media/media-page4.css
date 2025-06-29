@@ -63,11 +63,17 @@
   margin-right: 100px;
 }
 
+  .person-card img {
+    height: 400px;
+    width: 100%;
+  }
+
 }
 
 
 
 @media (max-width: 426px) {
+  
 
 /* --- მენიუ --- */
 .navbar-nav .nav-link {
