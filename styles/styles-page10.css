@@ -70,7 +70,7 @@ a:hover {
   font-weight: 700;
   color: #084c4c;
   text-align: center;
-  margin-top: 36px;
+  margin-top: 51px;
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 
@@ -104,6 +104,10 @@ h2.section-title {
   margin: 50px 0 30px;
   font-size: 36px;
   font-weight: 700;
+}
+
+.row{
+  justify-content: center;
 }
 
 /* ---- ტურის ქარდები ---- */
@@ -163,6 +167,10 @@ h2.section-title {
   font-size: 18px;
   line-height: 1.8;
   color: #084c4c;
+}
+
+.tour-card .card-body span {
+  font-weight: 700;
 }
 
 .tour-card .card-body p {

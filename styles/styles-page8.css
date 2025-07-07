@@ -65,15 +65,7 @@ a:hover {
   color: #084c4c;
 }
 
-/* --- სათაური --- */
-.top-title {
-  font-size: 40px;
-  font-weight: 700;
-  color: #084c4c;
-  text-align: center;
-  margin-top: 36px;
-  font-family: "BPG Glaho WEB Caps", sans-serif;
-}
+
 
 /* --- სურათის ელემენტები --- */
 .flag {
@@ -92,8 +84,14 @@ a:hover {
 
 /* მთავარი */
 
-.title{
-  margin-top: 140px;
+.top-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #084c4c;
+  text-align: center;
+  margin-top: 92px !important;
+  margin-bottom: 50px !important;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 
  body {

@@ -84,6 +84,11 @@
   font-size: 25px;
 }
 
+/* Text styling */
+.bio p {
+  font-size: 13px;
+}
+
 /* footer */
 
 .footer{
