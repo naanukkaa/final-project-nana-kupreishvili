@@ -9,6 +9,9 @@ header {
   padding: 20px 0;
   width: 100%;
   background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 /* --- ბმულები --- */
@@ -86,6 +89,109 @@ a:hover {
   vertical-align: middle;
   margin-left: 32px;
 }
+
+/* --- მთავარი --- */
+
+.title{
+  margin-top: 140px;
+}
+
+body {
+  font-family: 'BPG Glaho WEB Caps', sans-serif;
+  color: #084c4c;
+  background: #fff;
+}
+
+h1, h2 {
+  color: #358585;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.contact-info p {
+  margin-bottom: 16px;
+}
+
+.online-chat {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  background: #f9f9f9;
+  padding: 20px 25px;
+  border-radius: 12px;
+  border: 2px solid #358585;
+}
+
+.online-chat span {
+  color: #084c4c;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 25px 30px;
+  border-radius: 16px;
+  border: 2px solid #084c4c;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+  font-size: 18px;
+  color: #084c4c;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 8px;
+  border: 2px solid #358585;
+  border-radius: 10px;
+  font-family: 'BPG Glaho WEB Caps', sans-serif;
+  font-size: 18px;
+  color: #084c4c;
+  transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #084c4c;
+}
+
+button[type="submit"] {
+  margin-top: 25px;
+  background-color: #358585;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+button[type="submit"]:hover {
+  background-color: #084c4c;
+}
+
 
 /* footer */
 

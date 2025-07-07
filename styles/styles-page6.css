@@ -9,6 +9,9 @@ header {
   padding: 20px 0;
   width: 100%;
   background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 /* --- ბმულები --- */
@@ -88,6 +91,10 @@ a:hover {
 }
 
 /* მთავარი */
+
+.title{
+  margin-top: 140px;
+}
 
 .abasha-section {
   font-family: "BPG Glaho WEB Caps", sans-serif;

@@ -78,6 +78,24 @@
   font-size: 25px;
 }
 
+/* main */
+
+h1, h2 {
+  font-size: 30px;
+}
+
+.contact-info {
+  max-width: 400px;
+}
+
+.online-chat {
+  max-width: 400px;
+}
+
+form {
+  max-width: 400px;
+}
+
 /* footer */
 
 .footer{

@@ -91,6 +91,9 @@ a:hover {
 }
 /* info */
 
+.title{
+  margin-top: 140px;
+}
 
 .abasha-banner{
   background-image: url("../images/main/banner.jpg");
@@ -157,6 +160,10 @@ a:hover {
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 
+.rows-top a:hover {
+  color: #226060;
+}
+
 .row-list {
   display: flex;
   flex-direction: row;
@@ -192,10 +199,17 @@ a:hover {
 .picsrow img {
   width: 210px;
   height: 210px;
+  border-radius: 4%;
   object-fit: cover;
 }
 
-
+.picsrow {
+  margin-top: 20px;
+}
+.picsrow img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 /* footer */
 
 .footer{

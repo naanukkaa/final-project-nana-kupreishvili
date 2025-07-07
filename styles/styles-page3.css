@@ -9,6 +9,9 @@ header {
   padding: 20px 0;
   width: 100%;
   background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 /* --- ბმულები --- */
@@ -88,6 +91,11 @@ a:hover {
 }
 
 /* მთავარი */
+
+.title {
+  margin-top: 140px;
+}
+
 .winasityvaoba p{
   font-size: 20px;
   font-weight: 500;
@@ -98,7 +106,7 @@ a:hover {
 }
 
 .main{
-  margin-top: 60px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +119,7 @@ a:hover {
   font-weight: 700;
   color: #084c4c;
   font-family: "BPG Glaho WEB Caps", sans-serif;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .row-one, .row-two, .row-three, .row-four, .row-five {

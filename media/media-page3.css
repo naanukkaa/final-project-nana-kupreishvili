@@ -47,6 +47,56 @@
   font-size: 35px;
 }
 
+.main h1{
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.row-one, .row-two, .row-three, .row-four, .row-five {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-one img{
+  height: auto;
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.row-two img{
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.row-three img{
+  height: auto;
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.row-four img{
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.row-five img{
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.main h2{
+  font-size: 32px;
+  text-align: center;
+}
 
 /* footer */
 
@@ -76,6 +126,13 @@
 
 .dropdown-item {
   font-size: 25px;
+}
+
+/* main */
+
+.row-one, .row-two, .row-three, .row-four, .row-five p{
+  font-size: 17px;
+  text-align: center;
 }
 
 /* footer */
