@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .container {
   max-width: 1800px;
   width: 90%;
@@ -19,6 +26,8 @@ a {
   color: #358585;
   font-weight: 700;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
@@ -51,12 +60,15 @@ a:hover {
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-weight: 600;
   border-radius: 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .dropdown-item {
   font-size: 15px;
   color: #358585;
+  -webkit-transition: background 0.2s ease, color 0.2s ease;
+  -o-transition: background 0.2s ease, color 0.2s ease;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
@@ -97,9 +109,16 @@ a:hover {
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main h1 {
@@ -137,20 +156,28 @@ a:hover {
 .person-card {
   overflow: hidden;
   border-radius: 4%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
   transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
   background-color: #fff;
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 
 .person-card:hover {
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+      -ms-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 .person-card img {
   height: 400px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 4% 4% 0 0;
 }
 
@@ -166,6 +193,8 @@ a:hover {
 .bio {
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: max-height 0.4s ease-in-out, padding 0.3s ease-in-out;
+  -o-transition: max-height 0.4s ease-in-out, padding 0.3s ease-in-out;
   transition: max-height 0.4s ease-in-out, padding 0.3s ease-in-out;
   padding: 24px 16px;
 }
@@ -192,13 +221,23 @@ a:hover {
   background-color: #358585;
   width: 100%;
   padding: 40px 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .column{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
@@ -208,8 +247,13 @@ a:hover {
 }
 
 .column2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
@@ -221,9 +265,16 @@ a:hover {
 
 .logos{
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 10px;
   height: 58px;
   width: 58px;
@@ -243,10 +294,19 @@ a:hover {
 }
 
 .info-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-bottom: 30px;
 }
 

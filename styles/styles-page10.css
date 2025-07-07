@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .container {
   max-width: 1800px;
   width: 90%;
@@ -19,6 +26,8 @@ a {
   color: #358585;
   font-weight: 700;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
@@ -50,12 +59,15 @@ a:hover {
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-weight: 600;
   border-radius: 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .dropdown-item {
   font-size: 15px;
   color: #358585;
+  -webkit-transition: background 0.2s ease, color 0.2s ease;
+  -o-transition: background 0.2s ease, color 0.2s ease;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
@@ -107,7 +119,9 @@ h2.section-title {
 }
 
 .row{
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* ---- ტურის ქარდები ---- */
@@ -115,14 +129,21 @@ h2.section-title {
   border: 2px solid #084c4c;
   border-radius: 16px;
   overflow: hidden;
+  -webkit-transition: -webkit-transform 0.4s ease, -webkit-box-shadow 0.4s ease;
+  transition: -webkit-transform 0.4s ease, -webkit-box-shadow 0.4s ease;
+  -o-transition: transform 0.4s ease, box-shadow 0.4s ease;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, -webkit-transform 0.4s ease, -webkit-box-shadow 0.4s ease;
   background: #fff;
   margin-bottom: 30px;
 }
 
 .tour-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+          box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   z-index: 10;
 }
 
@@ -135,22 +156,31 @@ h2.section-title {
 .tour-card img {
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   border-radius: 16px 16px 0 0;
-  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  -o-transition: filter 0.3s ease;
   transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
 }
 
 .tour-card:hover img {
-  filter: brightness(1);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
 }
 
 .tour-card h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: rgba(8, 76, 76, 0.8);
   color: #fff;
   padding: 10px 18px;
@@ -179,10 +209,13 @@ h2.section-title {
 
 /* ---- ქვედა სექცია - ინფო + ფორმა ---- */
 .bottom-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 30px;
   margin-top: 50px;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
  .info-block, .booking-form {
@@ -190,7 +223,8 @@ h2.section-title {
   border-radius: 16px;
   padding: 25px 30px;
   background: #fff;
-  box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+          box-shadow: 0 0 0 transparent;
   min-width: 300px;
 }
 
@@ -231,8 +265,13 @@ h2.section-title {
 
 /* ფორმის სტილი */
 .booking-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 18px;
 }
 
@@ -251,6 +290,8 @@ h2.section-title {
   font-family: 'BPG Glaho WEB Caps', sans-serif;
   font-size: 16px;
   color: #084c4c;
+  -webkit-transition: border-color 0.3s ease;
+  -o-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
   text-transform: uppercase;
 }
@@ -273,6 +314,8 @@ h2.section-title {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 
@@ -287,13 +330,23 @@ h2.section-title {
   background-color: #358585;
   width: 100%;
   padding: 40px 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .column{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
@@ -303,8 +356,13 @@ h2.section-title {
 }
 
 .column2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
@@ -316,9 +374,16 @@ h2.section-title {
 
 .logos{
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 10px;
   height: 58px;
   width: 58px;
@@ -338,10 +403,19 @@ h2.section-title {
 }
 
 .info-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-bottom: 30px;
 }
 

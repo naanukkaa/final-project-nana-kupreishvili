@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .container {
   max-width: 1800px;
   width: 90%;
@@ -19,6 +26,8 @@ a {
   color: #358585;
   font-weight: 700;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
@@ -51,12 +60,15 @@ a:hover {
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-weight: 600;
   border-radius: 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .dropdown-item {
   font-size: 15px;
   color: #358585;
+  -webkit-transition: background 0.2s ease, color 0.2s ease;
+  -o-transition: background 0.2s ease, color 0.2s ease;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
@@ -166,6 +178,8 @@ textarea {
   font-family: 'BPG Glaho WEB Caps', sans-serif;
   font-size: 18px;
   color: #084c4c;
+  -webkit-transition: border-color 0.3s ease;
+  -o-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
 }
 input[type="text"]:focus,
@@ -185,6 +199,8 @@ button[type="submit"] {
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
   width: 100%;
 }
@@ -200,13 +216,23 @@ button[type="submit"]:hover {
   background-color: #358585;
   width: 100%;
   padding: 40px 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .column{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
@@ -216,8 +242,13 @@ button[type="submit"]:hover {
 }
 
 .column2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
@@ -229,9 +260,16 @@ button[type="submit"]:hover {
 
 .logos{
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 10px;
   height: 58px;
   width: 58px;
@@ -251,10 +289,19 @@ button[type="submit"]:hover {
 }
 
 .info-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-bottom: 30px;
 }
 
