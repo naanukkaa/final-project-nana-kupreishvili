@@ -329,9 +329,16 @@ a:hover {
   position: fixed;
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #084c4c; /* Your main green */
   padding: 8px;
   border-top-right-radius: 10px;
@@ -345,12 +352,18 @@ a:hover {
   font-size: 24px;
   margin: 10px 5px;
   text-align: center;
+  -webkit-transition: background 0.3s, -webkit-transform 0.2s;
+  transition: background 0.3s, -webkit-transform 0.2s;
+  -o-transition: background 0.3s, transform 0.2s;
   transition: background 0.3s, transform 0.2s;
+  transition: background 0.3s, transform 0.2s, -webkit-transform 0.2s;
 }
 
 .social-icon:hover {
   background-color: #358585;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
   border-radius: 5px;
   padding: 5px;
 }
@@ -358,7 +371,8 @@ a:hover {
 .tbc-logo-two {
   width: 30px;
   height: 30px;
-  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 .social-icon img {

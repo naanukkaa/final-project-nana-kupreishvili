@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .container {
   max-width: 1800px;
   width: 90%;
@@ -20,6 +27,8 @@ a {
   color: #358585;
   font-weight: 700;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
@@ -52,12 +61,15 @@ a:hover {
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-weight: 600;
   border-radius: 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .dropdown-item {
   font-size: 15px;
   color: #358585;
+  -webkit-transition: background 0.2s ease, color 0.2s ease;
+  -o-transition: background 0.2s ease, color 0.2s ease;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
@@ -134,9 +146,15 @@ a:hover {
   width: 100%;
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
     margin-top: 100px;
 }
 
@@ -162,13 +180,23 @@ a:hover {
   background-color: #358585;
   width: 100%;
   padding: 40px 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .column{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
@@ -178,8 +206,13 @@ a:hover {
 }
 
 .column2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
@@ -191,9 +224,16 @@ a:hover {
 
 .logos{
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 10px;
   height: 58px;
   width: 58px;
@@ -213,10 +253,19 @@ a:hover {
 }
 
 .info-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-bottom: 30px;
 }
 
@@ -230,9 +279,16 @@ a:hover {
   position: fixed;
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #084c4c; /* Your main green */
   padding: 8px;
   border-top-right-radius: 10px;
@@ -246,12 +302,18 @@ a:hover {
   font-size: 24px;
   margin: 10px 5px;
   text-align: center;
+  -webkit-transition: background 0.3s, -webkit-transform 0.2s;
+  transition: background 0.3s, -webkit-transform 0.2s;
+  -o-transition: background 0.3s, transform 0.2s;
   transition: background 0.3s, transform 0.2s;
+  transition: background 0.3s, transform 0.2s, -webkit-transform 0.2s;
 }
 
 .social-icon:hover {
   background-color: #358585;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
   border-radius: 5px;
   padding: 5px;
 }
@@ -259,7 +321,8 @@ a:hover {
 .tbc-logo-two {
   width: 30px;
   height: 30px;
-  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 .social-icon img {
