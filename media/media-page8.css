@@ -170,4 +170,9 @@ footer p, footer a, footer li {
   margin: 0 0;
 }
 
+.social-sidebar {
+    display: none;
+  }
+
+
 }

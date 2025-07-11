@@ -183,4 +183,9 @@ form {
   margin-bottom: 10px;
 }
 
+.social-sidebar {
+    display: none;
+  }
+
+
 }
