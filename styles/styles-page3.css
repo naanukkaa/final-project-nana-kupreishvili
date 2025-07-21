@@ -166,18 +166,32 @@ a:hover {
   height: 300px;
   width: 600px;
   margin-right: 20px;
+  border-radius: 4%;
+}
+
+.row-two img{
+  height: 400px;
+  width: 400px;
+  margin-left: 20px;
+  border-radius: 4%;
 }
 
 .row-three img{
   height: 300px;
   width: 600px;
   margin-right: 20px;
+  border-radius: 4%;
 }
 
 .row-four img{
   height: 300px;
   width: 600px;
   margin-left: 20px;
+  border-radius: 4%;
+}
+
+.row-five img {
+  border-radius: 4%;
 }
 
 .row-one, .row-two, .row-three, .row-four, .row-five p{
