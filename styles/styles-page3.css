@@ -165,33 +165,41 @@ a:hover {
 .row-one img{
   height: 300px;
   width: 600px;
-  margin-right: 20px;
+  margin-right: 60px;
   border-radius: 4%;
+  box-shadow: black 0px 0px 15px 0px;
 }
 
 .row-two img{
   height: 400px;
   width: 400px;
-  margin-left: 20px;
+  margin-left: 60px;
   border-radius: 4%;
+  box-shadow: black 0px 0px 15px 0px;
 }
 
 .row-three img{
   height: 300px;
   width: 600px;
-  margin-right: 20px;
+  margin-right: 60px;
   border-radius: 4%;
+  box-shadow: black 0px 0px 15px 0px;
 }
 
 .row-four img{
   height: 300px;
   width: 600px;
-  margin-left: 20px;
+  margin-left: 60px;
   border-radius: 4%;
+  box-shadow: black 0px 0px 15px 0px;
 }
 
-.row-five img {
+.row-five img{
+  height: 400px;
+  width: 700px;
+  margin-right: 60px;
   border-radius: 4%;
+  box-shadow: black 0px 0px 15px 0px;
 }
 
 .row-one, .row-two, .row-three, .row-four, .row-five p{
@@ -207,21 +215,9 @@ a:hover {
   font-weight: 700;
   color: #084c4c;
   font-family: "BPG Glaho WEB Caps", sans-serif;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 90px 0 60px;
 }
 
-.row-two img{
-  height: 400px;
-  width: 400px;
-  margin-left: 20px;
-}
-
-.row-five img{
-  height: 400px;
-  width: 700px;
-  margin-right: 20px;
-}
 
 /* footer */
 
