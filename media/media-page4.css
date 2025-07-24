@@ -112,6 +112,29 @@
 
 @media (max-width: 426px) {
   
+.footer{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+}
+
+.column{
+  margin-left: 70px;
+  text-align: center;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 30px;
+}
 
 /* --- მენიუ --- */
 .navbar-nav .nav-link {
