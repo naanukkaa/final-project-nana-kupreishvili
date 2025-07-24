@@ -361,3 +361,7 @@ a:hover {
   width: 24px;
   height: 24px;
 }
+
+.info-logo img {  
+  margin-right: 20px;
+}

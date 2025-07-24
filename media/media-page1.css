@@ -76,6 +76,9 @@
 
 @media (max-width: 768px) {
 
+.gerbi{
+   display: none;
+ }
 /* --- მენიუ --- */
 .navbar-nav .nav-link {
   font-size: 25px;
@@ -107,6 +110,10 @@
 
 .section span{
   font-size: 17px;
+}
+
+.column2{
+  margin-right: 50px !important;
 }
 
 /* სოფლის მეურნეობა */

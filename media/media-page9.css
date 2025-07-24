@@ -33,6 +33,13 @@
 
 
 @media (max-width: 768px) {
+  .gerbi{
+   display: none;
+ }
+ 
+.column2{
+  margin-right: 50px !important;
+}
 /* --- მენიუ --- */
 .navbar-nav .nav-link {
   font-size: 25px;
